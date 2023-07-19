@@ -1,0 +1,713 @@
+/* common styles goes here */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    min-width: fit-content;
+  
+}
+.header{
+   
+
+width: 100%;
+height:8.125rem;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+ 
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin: 0 15rem; */
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+nav li {
+    list-style: none;
+    margin-right: 2rem;
+}
+nav a{
+text-decoration: none;
+color: #3C354F;
+/* text-align: center; */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.nav-title{
+/* text-align: center; */
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.gamer-span{
+    
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-logo{
+width: 86.041px;
+height: 40px;
+margin-top: 3.375rem;
+margin-left: 15rem;
+
+}
+.gamer-text{
+width: 147px;
+height: 53px;
+padding-bottom:2.438rem;
+
+}
+.left-side{
+display: flex;
+}
+.right-side{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 2.5rem;
+    margin-right:15rem ;
+}
+
+
+
+
+
+
+
+/*  */
+
+
+.follow{
+color: #3C354F;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 1.5rem;
+
+}
+.button-container{
+    
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 16.375rem;
+height: 3.5rem;
+}  
+
+
+.follow-button {
+    display: flex;
+    gap: 10px; }
+  
+  
+  .follow-button a { 
+    display: flex;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 16px;
+  }
+  
+.follow-button img {
+  
+width: 33.916px;
+height: 24px;
+  }
+.img{
+    padding-top: 16px;
+} 
+
+
+
+
+/* main starts */
+/* top section */
+.top-details-pic{
+display: flex;
+justify-content: space-between;
+}
+.group-image{
+    width: 44.438rem;
+    height: 100%;
+    margin-right: 15em;
+   
+
+}
+.goat{
+width: 56.313rem;
+height: 43.75rem;
+background-image:url(images/Group\ 14.png)
+
+}
+
+.goat h6{
+gap: 1.5rem;
+display: flex;
+margin-top: 1.438rem;
+color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 18.5rem;
+padding-bottom:3px;
+}
+.goat-text{
+ /* text-align: center; */
+ padding-left:18rem;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0.313rem;
+margin-bottom: auto;
+
+}
+.play{
+margin-top: 9.25rem;
+margin-bottom: 0rem;
+color: #0B0223;
+padding-left: 15.25rem;
+/* text-align: center; */
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.small-ico{
+width: 24px;
+height: 24px;
+
+}
+/* buttons styles here */
+.sign-in{
+width: 9.75rem;  
+height:4.063rem;
+display: inline-flex;
+padding: 1.313rem 2.5rem;
+align-items: flex-start;
+gap: 0.625rem;
+border-radius: 3rem;
+border: none;
+background: rgb(223, 77, 167);
+margin-bottom:248px ;
+margin-left: 17.5rem;
+
+}
+.sign-in-text{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;    
+
+}
+.go-rogue{
+    border-radius: 3rem;
+     background: #4EC5F7;
+    display: inline-flex;
+    padding: 1.313rem 2.5rem;
+    align-items: flex-start;
+    gap: 10px;   
+    border: none;
+    margin-left: 20px;
+}
+.go-rogue-text{
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+/* we are gamers */
+
+.optional-gamer{
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+display: flex;
+justify-content: space-between;
+width: 120rem;
+height: 37.5rem;
+
+
+}
+
+.cartoon-image{
+width: 54.25rem;
+height: 30.563rem;
+margin-left: 15rem;
+margin-top: 3.438rem;
+}
+
+
+.text-contents{
+    
+    width: 30.563rem;
+    height: 489px;
+    margin-right: 10.75rem;
+    margin-top: 3.438rem;
+
+    
+}
+.gamer-desc{
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.gamer-para{
+height:7.5;
+width: 30.563rem;
+color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.go-rogue1{
+     border-radius: 3rem;
+     background: #4EC5F7;
+    display: inline-flex;
+    padding: 1.313rem 2.5rem;
+    
+    gap: 10px;   
+    border: none;
+    margin-left: 17.5rem;
+   
+}
+.slogan{
+color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; 
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+
+
+}
+
+/* Complex hoovering and Games */
+/* Games-Section */
+
+.games-section{
+
+max-width:100%;
+}
+.games-heading{
+margin-top: 120px;
+text-align: center;
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+
+
+}
+.games-para{
+color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 1px;
+}
+/* games are oriented here */
+.games-orientation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 21.375rem;
+    height: 24.75rem;
+    gap: 24px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    
+    } 
+    /* funny span */
+.funny{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+/* games descriptions */
+.games-bottom-texts{
+margin-top :5px;   
+color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+
+}
+/* hoover buttons and actions */
+.watch-now {
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: rgb(255, 255, 255); 
+padding: 10px 15px;
+opacity: 0;
+transition: opacity 0.3s ease;
+cursor: pointer;
+}
+
+.game-item {
+position: relative;
+}
+.game-item :hover{
+    filter: brightness(50%);
+}
+.games-orientation > div:hover .watch-now {
+opacity: 1;
+}
+
+
+  
+.play1{
+width: 48px;
+height: 48px;
+}
+/* complex hovering ends here */
+
+/* image overlay  section */
+.image-overlay{
+
+width: 1440px;
+height: 670px;
+border: 0.1px solid transparent;
+margin-top: 100px;
+margin-left: 250px;
+}
+.container{
+position: relative;
+float: right;
+margin-right: 0px;
+width: 634.833px;
+height: 650px;
+
+}
+.howdy{
+    float: right;
+    width: 39.677rem;
+    height: 40.625rem;
+    position: relative;
+   
+    
+     
+
+}
+.biral{
+    position:absolute;
+    margin-top:18.75rem; 
+    left: -20%;
+    bottom: -8%;
+    
+
+} 
+
+.top-text{
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+
+.bottom-text-biral{
+width: 22.063rem;
+height: 5.625rem;
+color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-left:5.563px;
+margin-top: 1px;
+
+}
+.play-isntant{
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* genre */
+
+.genre{
+/* width: 90rem; */
+width: 100%;
+height: 26.688rem;
+padding-left: 20px;
+margin-top: 200px;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.row1{
+    margin-top: 6.875rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin-left:12.188rem;
+    
+}
+.h3{
+    text-align:justify;
+    margin: auto;
+}
+.row1 img{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.row1>div:hover {
+    background-color: pink ;
+    cursor: pointer;
+    border:2px solid pink;
+    border-radius: 50px;
+    filter: brightness(60%);
+  }
+  .row2>div:hover {
+    background-color: pink ;
+    cursor: pointer;
+    border:2px solid pink;
+    border-radius: 50px;
+    filter: brightness(60%);
+  }
+
+/* foooter */
+.footer{
+margin-top:34.375rem;
+width: 100%;
+height: 39.75rem;
+background: #0B0223;
+
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+    gap: 15px;
+    padding-top: 120px;
+   
+}
+.logo-title{
+color: white;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.linkers{
+display: flex;
+justify-content:space-around;
+width: 50.875rem;
+height:2.563rem;
+margin-top:3.75rem;
+margin-left: 34.563rem;
+color: #ffffff;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.icons-all img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icons-all {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3.5rem;
+    margin-left: 46.25rem;
+  }
+  .extra--writing{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .extra{
+    display: flex;
+    justify-content: center;
+    gap: 3.75rem;
+    margin-top: 0.625rem;
+  }
+
+/* query */
+
+@media only screen and (max-width: 426px) {
+ nav,.right-side,.games-orientation {
+   flex-direction: column;
+   /* padding-left: 0px;
+   margin-left: 0rem; */
+  } 
+  .header{
+    margin-left:490px ;
+    width: 100%;
+  }
+body{
+   width: 100%;
+}
+  .nav-logo{
+    margin-left:0.5rem;
+  }
+  .right-side{
+    margin-right: 0rem;
+
+  }
+  nav li{
+    margin-top: 1rem;
+  }
+  .button-container{
+    margin-top: 1rem;
+  }
+.top-details-pic{
+    flex-direction: column-reverse;
+    margin-left: 400px;
+
+}
+.group-image{
+    margin-top: 10.625rem;
+}
+.optional-gamer{
+    flex-direction: column;
+}
+.text-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 350px;
+}
+.games-section{
+    display: flex;
+    flex-direction: column;
+}
+.cartoon-image{
+    margin-left: 400px;
+    }
+    .text-contents{
+        margin-left: 490px;
+
+    }
+    .go-rogue1{
+        margin-right: 350px;
+    }
+    .slogan{
+        margin-right: 150px;
+    }
+    .games-section{
+        margin-top: 500px;
+        margin-left: 290px;
+        padding-left: 300px;
+        flex-wrap: wrap;
+    }
+    .games-orientation{
+        margin-left:230px;
+    }
+    .z-axis{
+        display: flex;
+       
+        
+        margin-top: 1500px;
+    }
+    .container{
+        margin-bottom: 100px;
+    }
+    .genre{
+        margin-top: 500px;
+        background-color: white;
+    }
+    .row1,.row2{
+        background-color: #fff;
+
+    }
+    .footer{
+        width: 100%;
+    }
+
+}
+
